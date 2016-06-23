@@ -99,7 +99,7 @@ vpn() { local server="$1" user="$2" pass="$3" \
 		persist-tun
 		ca /vpn/vpn-ca.crt
 		tls-client
-		remote-cert-tls server
+		#remote-cert-tls server
 		auth-user-pass
 		comp-lzo
 		verb 1
